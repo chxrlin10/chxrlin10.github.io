@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charles Rocha · Sites, planilhas e apps web</title>
+<meta name="description" content="Charles Cauan Rocha Raimundo: sites rápidos, planilhas de negócio e apps web. Projetos reais com prévia e números conferidos.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23166534%27/%3E%3C/svg%3E">
+<style>
+:root{--bg:#f6f7f5;--card:#fff;--tx:#111827;--mut:#566070;--ac:#166534;--acs:#e6f2ea;--bd:#e2e6e3}
+@media (prefers-color-scheme:dark){:root{--bg:#0c1210;--card:#141c19;--tx:#e9efec;--mut:#9fb0a8;--ac:#86d0a0;--acs:#1a2a22;--bd:#25322c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:48px 16px 64px}
+header .who{font-weight:600;color:var(--ac);margin:0 0 10px;letter-spacing:.02em}
+header h1{font-size:clamp(28px,4.4vw,42px);line-height:1.15;margin:0 0 12px;letter-spacing:-.01em;max-width:780px}
+header p{color:var(--mut);margin:0;max-width:640px}
+h2{font-size:20px;margin:56px 0 16px}
+.proj{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:24px;margin:0 0 20px;display:grid;gap:24px;grid-template-columns:1fr}
+@media (min-width:820px){.proj{grid-template-columns:1.1fr 1fr}}
+.proj h3{margin:0 0 4px;font-size:22px}
+.tag{display:inline-block;font-size:12px;font-weight:600;color:var(--ac);background:var(--acs);border-radius:999px;padding:2px 10px;margin:0 6px 8px 0}
+.proj p{margin:8px 0;color:var(--mut)}
+ul.facts{margin:12px 0 0;padding-left:18px}
+ul.facts li{margin:4px 0}
+.shots{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;align-items:flex-start}
+.shots img{width:min(210px,46%);height:auto;border-radius:18px;border:1px solid var(--bd);box-shadow:0 6px 24px rgba(0,0,0,.10)}
+.metric{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+.metric div{background:var(--acs);border-radius:10px;padding:8px 12px;font-size:13px;color:var(--mut)}
+.metric b{display:block;font-size:18px;color:var(--tx);font-variant-numeric:tabular-nums}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--bd);text-align:left}
+td:last-child{text-align:right;font-weight:600}
+caption{caption-side:bottom;color:var(--mut);font-size:12px;text-align:left;padding-top:8px}
+.link{display:inline-block;margin-top:12px;font-weight:600}
+.svc{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.svc article{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px}
+.svc h3{margin:0 0 6px;font-size:17px}
+.svc p{margin:0;color:var(--mut);font-size:14px}
+.how{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px 22px}
+.how ol{margin:0;padding-left:20px}
+.how li{margin:6px 0}
+footer{margin-top:56px;color:var(--mut);font-size:14px;border-top:1px solid var(--bd);padding-top:16px}
+a{color:var(--ac)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<p class="who">Charles Cauan Rocha Raimundo</p>
+<h1>Sites rápidos, planilhas de negócio e apps web</h1>
+<p>Projetos reais, com prévia e números conferidos. Entrego trabalho testado, código simples de manter e instruções de uso.</p>
+</header>
+
+<h2>Projetos</h2>
+
+<section class="proj">
+<div>
+<span class="tag">App web</span><span class="tag">Saúde e treino</span>
+<h3>Gym.cal</h3>
+<p>App de calorias e treino em português, que roda no navegador do celular.</p>
+<ul class="facts">
+<li>Meta de calorias e de macronutrientes calculada pelo corpo, pela rotina e pelo objetivo.</li>
+<li>Treino montado para 2 a 6 dias por semana, com demonstração de cada exercício.</li>
+<li>Alimentos em medidas do dia a dia (colher, fatia, unidade), sem balança.</li>
+<li>Dados salvos no aparelho, com conta na nuvem opcional.</li>
+<li>Testes automatizados de app, servidor e banco de dados.</li>
+</ul>
+<div class="metric">
+<div><b>99</b>desempenho</div>
+<div><b>100</b>acessibilidade</div>
+<div><b>100</b>boas práticas</div>
+<div><b>100</b>SEO</div>
+</div>
+<p style="font-size:13px">Notas do Google Lighthouse no site publicado (novembro de 2026).</p>
+<a class="link" href="https://chxrlin10.github.io/gym-cal/">Abrir o Gym.cal →</a>
+</div>
+<div class="shots">
+<img src="img/gymcal-hoje.jpg" alt="Gym.cal: tela Hoje com 1644 kcal restantes e metas de proteína, carboidrato e gordura" width="390" height="844">
+<img src="img/gymcal-treino.jpg" alt="Gym.cal: tela Meu treino com o treino Corpo inteiro A e os exercícios do dia" width="390" height="844">
+</div>
+</section>
+
+<section class="proj">
+<div>
+<span class="tag">Planilha de negócio</span><span class="tag">Impressão 3D</span>
+<h3>3D Print Profit Calculator</h3>
+<p>Planilha para quem vende impressão 3D: custo real por peça, preço mínimo, preço com margem-alvo, pedidos e estoque de filamento.</p>
+<ul class="facts">
+<li>5 abas: calculadora, configurações, pedidos e lucro, estoque de filamento e instruções.</li>
+<li>Considera falhas de impressão, energia, desgaste, mão de obra, embalagem e taxas da loja.</li>
+<li>Avisos em cada linha: SKU repetido, dado faltando, filamento inexistente.</li>
+<li>Moeda configurável. Testada no Excel Online e no Google Sheets, sem macros.</li>
+</ul>
+<div class="metric">
+<div><b>1.532</b>fórmulas</div>
+<div><b>12</b>cenários testados</div>
+<div><b>0</b>macros</div>
+</div>
+</div>
+<div>
+<table>
+<thead><tr><th>Prévia: produto de exemplo</th><th></th></tr></thead>
+<tbody>
+<tr><td>Produto</td><td>Example: phone stand</td></tr>
+<tr><td>Preço de venda</td><td>USD 12,00</td></tr>
+<tr><td>Custo de produção por unidade</td><td>USD 3,07</td></tr>
+<tr><td>Taxas</td><td>USD 1,39</td></tr>
+<tr><td>Contribuição por unidade</td><td>USD 7,54</td></tr>
+<tr><td>Margem de contribuição</td><td>62,9%</td></tr>
+<tr><td>Preço mínimo (sem prejuízo)</td><td>USD 3,67</td></tr>
+<tr><td>Preço para margem-alvo de 30%</td><td>USD 5,49</td></tr>
+</tbody>
+<caption>Valores calculados pela própria planilha com os dados de exemplo.</caption>
+</table>
+</div>
+</section>
+
+<section class="proj">
+<div>
+<span class="tag">Automação</span><span class="tag">Node.js</span>
+<h3>Painel de oportunidades e propostas</h3>
+<p>Ferramenta interna que organiza oportunidades, mede horas e resultado e prepara rascunhos de proposta para revisão humana.</p>
+<ul class="facts">
+<li>Funil com etapas, horas, custos e resultado por hora, com resumo para o celular.</li>
+<li>Radar de tendências com fontes públicas e filtro por categoria.</li>
+<li>Rascunhos a partir de modelos próprios, sem envio automático.</li>
+<li>Sem dependências externas e com testes automatizados.</li>
+</ul>
+</div>
+<div>
+<table>
+<thead><tr><th>Módulo</th><th>Saída</th></tr></thead>
+<tbody>
+<tr><td>Funil</td><td>KPIs e ações do dia</td></tr>
+<tr><td>Radar</td><td>sinais por categoria</td></tr>
+<tr><td>Propostas</td><td>rascunho para revisar</td></tr>
+<tr><td>Margem de marketplace</td><td>líquido por preço</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<h2>Serviços</h2>
+<div class="svc">
+<article>
+<h3>Site ou landing page</h3>
+<p>Página rápida e responsiva, com formulário de contato, SEO básico e boa nota no PageSpeed para celular.</p>
+</article>
+<article>
+<h3>Planilha de negócio</h3>
+<p>Excel ou Google Sheets com custo, margem, estoque, pedidos e relatórios, com validação e instruções.</p>
+</article>
+<article>
+<h3>App web sob medida</h3>
+<p>Aplicativo leve que roda no navegador e no celular, com dados salvos com segurança.</p>
+</article>
+</div>
+
+<h2>Como trabalho</h2>
+<div class="how">
+<ol>
+<li>Confirmo o escopo, o prazo e o número de revisões antes de começar.</li>
+<li>Uso ferramentas de IA no processo e reviso e testo cada entrega antes de enviar.</li>
+<li>Entrego com instruções de uso e código ou arquivo editável.</li>
+</ol>
+</div>
+
+<footer>
+Charles Cauan Rocha Raimundo · Contato pela plataforma em que você me encontrou.
+</footer>
+</div>
+</body>
+</html>
